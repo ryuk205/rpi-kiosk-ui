@@ -1,0 +1,6 @@
+{
+    "screensaver_path": "media",
+    "message_file": "message.txt",
+    "play_order": "random",
+    "play_order_options": ["random", "fifo", "lifo", "name_az", "name_za"]
+}
