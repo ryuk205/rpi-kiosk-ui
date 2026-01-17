@@ -59,3 +59,4 @@ The 3.5" SPI display (MPI3508) is sensitive to bus speeds. This project is confi
 
 ## 📜 Acknowledgments
 This code was made with Google AntiGravity IDE, it is AI Generated. CSS were tricks were used due to limited resolution(320x480p) of the display. Different resolution might require refactoring the code. 
+Syncthing was used to sync the code,screensaver media, message.txt from PC to Pi
