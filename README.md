@@ -19,10 +19,14 @@ A high-performance, kiosk interface for the Raspberry Pi 4 using a 3.5" SPI disp
 ## 🛠️ Installation & Setup
 
 ### 1. Driver Installation
-Custom Driver: https://github.com/ryuk205/custom-35-driver
-Driver from Vendor: https://github.com/goodtft/LCD-show
-Docs for the screen: https://www.lcdwiki.com/3.5inch_RPi_Display
-Use any one of the repo to install the driver.
+- Custom Driver: https://github.com/ryuk205/custom-35-driver
+- Driver from Vendor: https://github.com/goodtft/LCD-show
+- Docs for the screen: https://www.lcdwiki.com/3.5inch_RPi_Display
+- Use any one of the repo to install the driver.
+- Create an environment for python server and install backend/requirements.txt (** Installing will take time **)
+- Script will activate the env automatically.
+- use run_windows.bat to preview on windows.
+- Pass Google AI (Gemini) API key to backend/.env (https://aistudio.google.com/ or from GCP)
 
 ### 2. Configure Autostart (Console to Desktop)
 To ensure the UI starts without needing a manual login:
@@ -52,3 +56,6 @@ The system uses two main config files:
 
 ## 📝 Hardware Note
 The 3.5" SPI display (MPI3508) is sensitive to bus speeds. This project is configured to a stable **16MHz**. Overclocking to 32MHz or 64MHz may cause "white screen" or console freezing.
+
+## 📜 Acknowledgments
+This code was made with Google AntiGravity IDE, it is AI Generated. CSS were tricks were used due to limited resolution(320x480p) of the display. Different resolution might require refactoring the code. 
